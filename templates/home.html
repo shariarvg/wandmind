@@ -1,0 +1,10 @@
+<!-- templates/home.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+    <form action="{% url 'model_call' %}" method = "get">
+  		Number of lines: <input type="text" name="poetry_number">
+		<input type="submit" value = "submit">
+	</form>
+	
+{% endblock content %}
