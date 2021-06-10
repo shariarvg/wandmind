@@ -16,7 +16,7 @@ punctuation= '''!()-[]{};:'"\, <>./?@#$%^&*_~'''
 #file_array=np.load("/Users/shariarvaez-ghaemi/icloud_drive/Documents/NLP_Demos/file_array.npy",allow_pickle=True)
 new_pred = np.load("/Users/shariarvaez-ghaemi/icloud_drive/Documents/NLP_Demos/new_pred.npy",allow_pickle=True).item()
 new_nlpred = np.load("/Users/shariarvaez-ghaemi/icloud_drive/Documents/NLP_Demos/new_nlpred.npy",allow_pickle=True).item()
-pos_listW = np.load("/Users/shariarvaez-ghaemi/icloud_drive/Documents/NLP_Demos/pos_listW.npy",allow_pickle=True).item()
+pos_listW = np.load("/Users/shariarvaez-ghaemi/icloud_drive/Documents/NLP_Demos/pos_listW2.npy",allow_pickle=True).item()
 
 '''
 #Remove punctuation
