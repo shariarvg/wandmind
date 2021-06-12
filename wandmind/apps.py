@@ -75,6 +75,9 @@ def write_poetry(n_lines):
         thisLinePos = nltk.pos_tag(thisLineTok)
         earlier = [thisLinePos[i][1] for i in range(0,len(thisLinePos)-1)]
         last = thisLinePos[len(thisLinePos)-1][1]
+
+
+        #Store lost versio
         subs = []
         
         while tuple(earlier) not in list(new_pred.keys()):
@@ -93,7 +96,8 @@ def write_poetry(n_lines):
             for c in range(int(1000000*prior*posterior)):
                 subs.append(pos)
         #print(len(subs))
-        chosenPos = random.choice(subs)
+        if len(subs)>0:
+            chosenPos = random.choice(subs)
         chosenWord = random.choice(pos_listW[pos])
         lines[count][-1]=chosenWord
 
