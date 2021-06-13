@@ -11,7 +11,7 @@ import random
 
 startPath = "/Users/shariarvaez-ghaemi/Desktop/wandmind/"
 
-import nltk
+#import nltk
 
 punctuation= '''!()-[]{};:'"\, <>./?@#$%^&*_~'''
 
