@@ -81,6 +81,8 @@ np_fa = np.asarray(file_array)
 np.savetxt("file_array.csv",np_fa,delimiter='  ', header='string', comments='', fmt='%s')
 ```
 
+### Training
+
 Now we're at the beginning of the training process. We're going to create a predictive dictionary of part-of-speech sequences. Each key will be an <i> ordered tuple</i> containing a part-of-speech sequence (e.g. verb-adverb-noun), while each value will be an <i> unordered array</i> containing all the parts-of-speech that came directly after it. Yes, there will be repeats in the value array. <br>
 
 While we're doing this, we will also build a dictionary with each key being a POS and each value being an array of examples for that POS. For example, we may have an entry like: <br>
@@ -219,6 +221,7 @@ def line_to_pos(line):
     thisLinePos = [thisLinePos[i][1] for i in range(len(thisLinePos))]
     return thisLinePos
 ```
+### Poetry Generation
 
 We're finally at the point where we get to write some poetry. Here is the algorithm we will use: <br>
 
@@ -296,7 +299,9 @@ import random
 write_poetry(5)
 ```
 
-If you're interested in deploying this model on a website, save the existing Numpy arrays into the same project folder that you download this repository into it.<br>
+### Saving Files for Django Backend
+
+If you're interested in deploying this model on a website, save the existing Numpy arrays into the same project folder that you download this repository into it.We certainly don't want to re-train the model everytime we load our website, so we'll just load our dictionaries. <br>
 
 This repository already contains all the Django files you need to deloy your model. All you need to do is set up the directory in your terminal and run the following code: <br>
 <code> python manage.py runserver </code>
