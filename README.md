@@ -25,7 +25,7 @@ We will be using <a href = "https://github.com/aparrish/gutenberg-poetry-corpus"
 
 import gzip, json, string
 all_lines = []
-for line in gzip.open("/Users/shariarvaez-ghaemi/Downloads/gutenberg-poetry-v001.ndjson.gz"):
+for line in gzip.open("../gutenberg-poetry-v001.ndjson.gz"):
     all_lines.append(json.loads(line.translate(str.maketrans('', '', string.punctuation))))
 
 ```
