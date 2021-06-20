@@ -11,12 +11,12 @@ But what if we <i>could</i> teach an ML to be creative? More specifically, what 
 
 Today, we will be leveraging a Monte-Carlo simulation with POS tagging to write original poems. <b> We will be writing our code in Python and using Django to deploy it as a local website.</b><br>
 
-
 Author: Shariar Vaez-Ghaemi <br>
 Date: 6/4/21 <br>
 
+
 ![Home Screen](homescreen.png)
-<b> Outputted Poem of 4 Lines:</b><br>
+<p id = "left"><b> Outputted Poem of 4 Lines:</b></p><br>
 ![Generated Poem](gen_poem.png)
 
 ### The Data
