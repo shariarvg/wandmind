@@ -16,7 +16,6 @@ Date: 6/4/21 <br>
 
 
 ![Home Screen](homescreen.png)
-<p id = "left"><b> Outputted Poem of 4 Lines:</b></p><br>
 ![Generated Poem](gen_poem.png)
 
 ### The Data
