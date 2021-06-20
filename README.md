@@ -7,7 +7,7 @@
 
 We've heard it over and over again. No matter how many strides we  make in data science, we can never teach a computer to be the next Picasso, Shakespeare, or Drake. <br>
 
-But what if we <i>could</i> teach an ML to be creative? More specifically, what if we could feed thousands of poems to an ML, have it learn basic conventions like syntax and grammar, and allow it to scatter its thoughts about? <br>
+But what if we <i>could</i> teach an ML to be creative? More specifically, what if we could feed thousands of poems to an ML, have it learn basic conventions like syntax and grammar, and allow it to scatter its thoughts on a website? <br>
 
 Today, we will be leveraging a Monte-Carlo simulation with POS tagging to write original poems. <b> We will be writing our code in Python and using Django to deploy it as a local website.</b><br>
 
