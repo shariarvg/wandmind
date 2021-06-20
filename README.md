@@ -16,6 +16,7 @@ Author: Shariar Vaez-Ghaemi <br>
 Date: 6/4/21 <br>
 
 ![Home Screen](homescreen.png)
+<b> Outputted Poem of 4 Lines:</b><br>
 ![Generated Poem](gen_poem.png)
 
 ### The Data
