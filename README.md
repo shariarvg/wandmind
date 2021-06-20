@@ -9,7 +9,7 @@ We've heard it over and over again. No matter how many strides we can make in da
 
 But what if we <i>could</i> teach an ML to be creative? More specifically, what if we could feed thousands of poems to an ML, have it learn basic conventions like syntax and grammar, and allow it to scatter its thoughts about? <br>
 
-Today, we will be leveraging a Monte-Carlo simulation with POS tagging and LDA topic modeling to write original poems. <br>
+Today, we will be leveraging a Monte-Carlo simulation with POS tagging to write original poems. We will be writing our code in Python and using Django to deploy it as a local website.<br>
 
 
 Author: Shariar Vaez-Ghaemi <br>
