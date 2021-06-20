@@ -15,7 +15,7 @@ Today, we will be leveraging a Monte-Carlo simulation with POS tagging to write 
 Author: Shariar Vaez-Ghaemi <br>
 Date: 6/4/21 <br>
 
-![Home Screen](homescreen.png)<br>
+![Home Screen](homescreen.png)
 ![Generated Poem](gen_poem.png)
 
 ### The Data
