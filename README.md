@@ -15,6 +15,8 @@ Today, we will be leveraging a Monte-Carlo simulation with POS tagging to write 
 Author: Shariar Vaez-Ghaemi <br>
 Date: 6/4/21 <br>
 
+![Home Screen](homescreen.png)
+
 ### The Data
 
 We will be using <a href = "https://github.com/aparrish/gutenberg-poetry-corpus"> the Gutenberg Poetry dataset.</a><br>   Each line in the corpus is a JSON object. The developer – Allison Parrish – does an excellent job of explaining the usability and mutability of the package in her README, so check it out!
