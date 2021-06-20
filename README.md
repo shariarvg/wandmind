@@ -304,7 +304,7 @@ write_poetry(5)
 
 ### Saving Files for Django Backend
 
-If you're interested in deploying this model on a website, save the existing Numpy arrays into the same project folder that you download this repository into it.We certainly don't want to re-train the model everytime we load our website, so we'll just load our dictionaries. <br>
+If you're interested in deploying this model on a website, save the existing Numpy arrays into the same project folder that you download this repository into it. We certainly don't want to re-train the model everytime we load our website, so we'll just load our dictionaries. <br>
 
 This repository already contains all the Django files you need to deloy your model. All you need to do is set up the directory in your terminal and run the following code: <br>
 <code> python manage.py runserver </code>
