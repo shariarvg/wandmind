@@ -5,7 +5,7 @@
 
 "MacHIne LeARniNG caN'T bE crEAtIve." <br>
 
-We've heard it over and over again. No matter how many strides we can make in data science, we will never teach a computer to be the next Picasso, Shakespeare, or Drake. <br>
+We've heard it over and over again. No matter how many strides we  make in data science, we can never teach a computer to be the next Picasso, Shakespeare, or Drake. <br>
 
 But what if we <i>could</i> teach an ML to be creative? More specifically, what if we could feed thousands of poems to an ML, have it learn basic conventions like syntax and grammar, and allow it to scatter its thoughts about? <br>
 
