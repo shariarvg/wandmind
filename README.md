@@ -1,6 +1,6 @@
 
 
-# Wandering Mind: Teaching A Statistical Language Model to Write Poetry
+# Wandering Mind: Teaching A Statistical Language Model to Write Original Poetry
 
 
 "MacHIne LeARniNG caN'T bE crEAtIve." <br>
