@@ -90,7 +90,7 @@ Now we're at the beginning of the training process. We're going to create a pred
 
 While we're doing this, we will also build a dictionary with each key being a POS and each value being an array of examples for that POS. For example, we may have an entry like: <br>
 
-{JJ:["funny","loud","annoying"]} <br>
+<code>{JJ:["funny","loud","annoying"]}</code> <br>
 
 We need this for poem generation, too.
 
@@ -129,11 +129,11 @@ for line in all_lines:
 
 Now that we're done with the dictionary, we'll realize that each entry looks something like this: <br>
 
-[JJ,NNP]:[JJ,JJ,NNP,RB,RB,RB,JJ,RB] <br>
+<code>[JJ,NNP]:[JJ,JJ,NNP,RB,RB,RB,JJ,RB]</code> <br>
 
 This will work great when we're trying to sample from the value array to write the poem. However, it won't work great when we're trying to interpret the value array as a frequency distribution. What we'd rather have is: <br>
 
-[JJ,NNP]:{JJ:0.375,NNP:0.125,RB:0.5} <br>
+<code>[JJ,NNP]:{JJ:0.375,NNP:0.125,RB:0.5}</code> <br>
 
 Where each key in the value dictionary is a possible next-POS, and each value in the value dictionary is the likelihood of seeing that POS. The function freq_dict will help us transform the data structure:
 
