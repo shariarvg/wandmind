@@ -30,21 +30,6 @@ for line in gzip.open("/Users/shariarvaez-ghaemi/Downloads/gutenberg-poetry-v001
 
 ```
 
-
-    ---------------------------------------------------------------------------
-
-    TypeError                                 Traceback (most recent call last)
-
-    <ipython-input-5-0de9a4fcd08d> in <module>
-          4 all_lines = []
-          5 for line in gzip.open("/Users/shariarvaez-ghaemi/Downloads/gutenberg-poetry-v001.ndjson.gz"):
-    ----> 6     all_lines.append(json.loads(line.translate(str.maketrans('', '', string.punctuation))))
-          7 
-
-
-    TypeError: a bytes-like object is required, not 'dict'
-
-
 Next, we'll import NLTK, which we will be using to tag the part-of-speech for every word in every line of the corpus. Eventually, we will use these part-of-speech tags as training data to teach syntax sequences to our ML, but for now, let's see how NLTK will tokenize and POS-tag the first line of Robert Frost's notorious "Fire and Ice."
 
 
